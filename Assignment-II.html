@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Application Form</title>
+	<style type="text/css">
+       body{
+          border: 3px dashed deeppink;
+          border-radius: 30px;
+          text-align: center;
+          padding: 30px;
+          margin: auto;
+          margin-top: 20px;
+          margin-bottom: 30px;
+          width: 700px;
+          background-image: url(https://img.freepik.com/premium-photo/pink-sunset-beach_1153744-165474.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          color: darkred;
+          box-shadow: 10px 10px 10px lightpink;
+          font-family: cursive;
+          margin-block: 30px;
+       }
+	</style>
+</head>
+<body>
+<h1>Application Form</h1>
+<form>
+    First Name:<input type="text" name=""Firstname>
+    Last Name:<input type="text" name="Lastname"> <br> <br> <br>
+    Date Of Birth:<input type="date" placeholder="mm/dd/yyyy">
+    Age:<input type="number" name="age"> <br> <br> <br>
+    Gender:
+       <select>
+       	 <option>Male</option>
+       	 <option>Female</option>
+       	 <option>Other</option>
+       </select>
+    Email Address:<input type="email" placeholder="Enter Email Address" name="Email"> <br> <br> <br>
+    Position Available:
+       <input type="radio" name="developer"> Junior Developer
+       <input type="radio" name="developer"> Mid-Level Developer
+       <input type="radio" name="developer"> Senior Developer <br> <br> <br>
+    Programming Languages:
+       <input type="checkbox" name="Java"> Java
+       <input type="checkbox" name="Javascript">Javascript
+       <input type="checkbox" name="Python">Python <br> <br> <br>
+    Password:<input type="text" name="Password">
+    Confirm Password:<input type="text" name="Confirm"> <br> <br> <br>
+    <input type="submit" name="Submit">
+    <input type="reset" name="Reset">
+</form>
+</body>
+</html>
